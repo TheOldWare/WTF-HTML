@@ -1,10 +1,10 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     background: #000000;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
@@ -12,37 +12,37 @@ body{
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    height: 100vh;
+    min-height: 100vh;
 }
 
-.conteiner{
+.conteiner {
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
 }
 
-.banner{
+.banner {
     width: 100%;
     height: auto;
-    display: block;
     margin: 20px auto;
     max-width: 900px;
 }
 
-.title{
+.title {
     font-size: 3rem;
     text-align: center;
     color: #880015;
     margin-top: 10px;
 }
 
-.line{
+.line {
     border-color: #880015;
 }
 
-.container-geral{
-    display: block;
+.container-geral {
+    display: flex;
+    flex-direction: column;
     gap: 2rem;
     justify-content: center;
     margin: 3rem 0;
@@ -50,7 +50,7 @@ body{
     max-width: 1200px;
 }
 
-.data{
+.data {
     text-align: center;
     margin-top: 10px;
     font-size: 1.9rem;
@@ -58,13 +58,13 @@ body{
     display: block;
 }
 
-.titulo{
+.titulo {
     font-size: 3rem;
     color: #4d219e;
     padding: 15px;
 }
 
-.text{
+.text {
     font-size: 2.3rem;
     color: rgb(95, 2, 2);
 }
